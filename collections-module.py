@@ -75,4 +75,6 @@
    my_deque = deque([1, 2, 3, 4, 5])
    
 
-These are just a few examples of the functionalities provided by the `collections` module. Depending on your needs, you might find other classes and functions in the module that can simplify and enhance your code. For more details, refer to the [official documentation](https://docs.python.org/3/library/collections.html).
+# These are just a few examples of the functionalities provided by the `collections` module.
+# Depending on your needs, you might find other classes and functions in the module that can simplify and enhance your code.
+# For more details, refer to the [official documentation](https://docs.python.org/3/library/collections.html).
