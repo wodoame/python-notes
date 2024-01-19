@@ -61,6 +61,8 @@ with open(csv_file_path, 'w', newline='') as file:
     # Write data to the CSV file
     csv_writer.writerows(data_to_write)
 
+# NOTE: If a file already contains some data that data will be overwritten when you use the 'w' flag so ... 
+# ... if you wish to keep existing data while adding new data it is best to use the 'a' flag
 
 #### Writing with DictWriter:
 import csv
