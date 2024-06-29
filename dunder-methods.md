@@ -8,3 +8,25 @@ In Python, **dunder methods** (short for "double underscore" methods) allow inst
 6. **Comparison Operators**: Overloaded with dunder methods (`<`, `>`, `<=`, `>=`). These methods define the relative ordering of objects (e.g., for sorting).
 
 Remember, magic methods are not meant to be invoked directly by you; Python handles their invocation internally based on specific actions. If you want more details or examples, feel free to explore the [complete list of dunder methods](https://www.pythonmorsels.com/every-dunder-method/).
+
+```python
+   class Employee: 
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+        
+    def __repr__(self) -> str:
+        return f'Employee(\'{self.name}\', {self.salary})'
+    
+    def __str__(self) -> str:
+        return self.name
+    
+    # add the employees together: overloading the '+' operator
+    def __add__(self, other):
+        return self.salary + other.salary
+
+    employee = Employee('bernard', 1000)
+    employee2 = Employee('miriam', 3000)
+    
+    print(employee + employee2)
+```
