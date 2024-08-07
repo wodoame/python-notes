@@ -1,4 +1,4 @@
-The Strategy Pattern is a behavioral design pattern that allows you to define a family of algorithms, encapsulate each one, and make them interchangeable. This pattern enables the algorithm to be selected at runtime, providing flexibility and promoting code reusability¹².
+The Strategy Pattern is a behavioral design pattern that allows you to define a family of algorithms, encapsulate each one, and make them interchangeable. This pattern enables the algorithm to be selected at runtime, providing flexibility and promoting code reusability.
 
 ### Example in Python
 
