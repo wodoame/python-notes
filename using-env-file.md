@@ -33,6 +33,7 @@ In this example, the application might use the `DATABASE_URL`, `API_KEY`, and `D
 To use these variables in a Python application, you can use a library like `python-dotenv` to load the values from the `.env` file into the environment:
 
 ```python
+# installation: pip install python-dotenv
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
